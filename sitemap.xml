@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://iloot.it/</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://iloot.it/index.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iloot.it/login.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iloot.it/register.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iloot.it/tos.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://iloot.it/profile.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://iloot.it/ads.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://iloot.it/masterpartner.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://iloot.it/make_gems.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://iloot.it/rewards.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://iloot.it/minilinks.php</loc>
+  <lastmod>2018-11-19T18:20:56+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+</urlset>

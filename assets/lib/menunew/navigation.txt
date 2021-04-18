@@ -1,0 +1,31 @@
+<ul>
+   <li><a href="/" title="{menu.navigation.home}">{menu.navigation.home}</a></li>
+   <li><a href="/partners" title="{menu.navigation.partners}">{menu.navigation.partners}</a></li>
+   <li class="has-dropdown">
+      <a style="cursor: pointer;" title="{menu.navigation.developers}">{menu.navigation.developers}</a>
+      <ul class="dropdown" style="display: none;">
+         <li><a href="/developers" title="{menu.navigation.information}">{menu.navigation.information}</a></li>
+         <li><a href="/developers/verification" title="{menu.navigation.verification}">{menu.navigation.verification}</a></li>
+         <li><a href="/developers/docs" title="{menu.navigation.documentation}">{menu.navigation.documentation}</a></li>
+         <li><a href="/developers/projects" title="{menu.navigation.manage_projects}">{menu.navigation.manage_projects}</a></li>
+      </ul>
+   </li>
+   <!--
+      <li class="has-dropdown">
+      <a style="cursor: pointer;" title="{menu.navigation.publishers}">{menu.navigation.publishers}</a>
+      <ul class="dropdown">
+      <li><a href="/publishers/" title="{menu.navigation.information}">{menu.navigation.information}</a></li>
+      <li><a href="/publishers/manage_advertising" title="{menu.navigation.manage_advertising}">{menu.navigation.manage_advertising}</a></li>
+      <li><a href="/publishers/pricing" title="{menu.navigation.pricing}">{menu.navigation.pricing}</a></li>
+      <li><a href="/helpcenter" title="{menu.navigation.helpcenter}">{menu.navigation.helpcenter}</a></li>
+      </ul>
+      </li> -->
+   <li class="has-dropdown">
+      <a style="cursor: pointer;" title="{menu.navigation.account}">{menu.navigation.account}</a>
+      <ul class="dropdown" style="display: none;">
+         <li><a href="/login" title="{menu.navigation.login}">{menu.navigation.login}</a></li>
+         <li><a href="/register" title="{menu.navigation.register}">{menu.navigation.register}</a></li>
+         <li><a href="/helpcenter" title="{menu.navigation.helpcenter}">{menu.navigation.helpcenter}</a></li>
+      </ul>
+   </li>
+</ul>

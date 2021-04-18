@@ -1,0 +1,74 @@
+<footer id="colorlib-footer">
+<div class="container">
+<div class="row row-pb-md">
+<div class="col-md-3 colorlib-widget">
+<h4>About iLoot.it</h4>
+<p>We want to help people who need or want some quick change. So we came up with the idea to let people watch advertisements for money. iLoot.it was created to earn money faster then other sites, without any of the hassle.</p>
+</div>
+<div class="col-md-3 colorlib-widget">
+<h4>Important links</h4>
+
+<ul class="colorlib-footer-links">
+<li><a href="https://iloot.it/terms" title="Twitter">• Terms of Service</a></li>
+<li><a href="https://iloot.it/privacy" title="Discord">• Privacy Policy</a></li>
+<li><a href="https://discord.gg/nNhsyC4" title="Discord">• Support Discord</a></li>
+</ul>
+</div>
+<div class="col-md-3 colorlib-widget">
+<h4>Recent updates</h4>
+
+<div class="desc">
+<p class="admin"><span>In the section below this we will let you know all the latest updates and when it updated(DD/MM/YYYY)</span></p>
+</div>
+
+
+
+
+
+
+
+
+<div class="desc">
+<p class="admin"><span>11/04/2019: Many bugfixes + Tokens are back!</span></p>
+</div>
+
+
+
+<div class="desc">
+<p class="admin"><span>16/03/2019: New anti-fraud detection</span></p>
+</div>
+
+
+<div class="desc">
+<p class="admin"><span>24/02/2019: Added CPU mining, Money star rating and more.</span></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="col-md-3 colorlib-widget">
+<h4>Contact Info</h4>
+<ul class="colorlib-footer-links">
+<li>If you need contact with us you can always join our discord.</li>
+<li>Click <a href="https://discord.gg/nNhsyC4" title="Discord">here</a> to go to our Discord server.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="copy">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<p>Copyright ©2019 Max van der Wolf All rights reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>

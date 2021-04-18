@@ -1,0 +1,24 @@
+<ul>
+   <li><a href="/" title="How to get started">Home</a></li>
+   <li><a href="/partners" title="Partners">Partners</a></li>
+   <li class="has-dropdown">
+      <a style="cursor: pointer;" title="Money">Money</a>
+      <ul class="dropdown" style="display: none;">
+         <li style="color: white;">You have $<b>[DOLLARS]</b></li>
+         <li><a href="/payout" title="Payout">Payout</a></li>
+        <!--  <li><a href="/watch_advertisements" title="Watch advertisements">Watch advertisements [⭐⭐⭐★★]</a></li> -->
+		 <li><a href="/tokens/" title="Earn Tokens">Earn Tokens [⭐⭐⭐⭐★]</a></li>
+        <!--  <li><a href="/minilinks" title="minilinks">MiniLinks [⭐⭐★★★]</a></li> -->
+        <!-- <li><a href="/overlay" title="OverLay">OverLay [⭐⭐⭐★★]</a></li> -->
+		 <li><a href="/miner" title="Miner">Miner [⭐⭐⭐⭐★]</a></li>
+         <li><a href="/pay/send" title="Send a payment">Send a payment</a></li>
+      </ul>
+   </li>
+   <li class="has-dropdown">
+      <a style="cursor: pointer;" title="Profile">Account</a>
+      <ul class="dropdown" style="display: none;">
+         <li><a href="/profile" title="Profile">Profile</a></li>
+         <li><a href="/logout" title="Logout">Logout</a></li>
+      </ul>
+   </li>
+</ul>

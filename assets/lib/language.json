@@ -1,0 +1,27 @@
+{
+	"GLOBAL": {
+		"name": "iLoot.it"
+	},
+	"EN": {
+		"menu": {
+			"navigation": {
+				"home": "Home",
+				"partners": "Partners",
+				"developers": "Developers",
+				"information": "Information",
+				"verification": "Verification",
+				"documentation": "Documentation",
+				"projects": "Projects",
+				"publishers": "Publishers",
+				"manage_advertising": "Manage advertising",
+				"manage_projects": "Manage projects",
+				"pricing": "Pricing",
+				"helpcenter": "Helpcenter",
+				"account": "Account",
+				"login": "Login",
+				"register": "Register"
+			}
+		}
+	}
+
+}

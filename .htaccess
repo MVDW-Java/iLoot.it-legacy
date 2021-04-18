@@ -1,0 +1,57 @@
+RewriteEngine On
+
+ErrorDocument 404 /error?type=404
+ErrorDocument 403 /error?type=403
+ErrorDocument 500 /error?type=500
+
+php_value session.gc_maxlifetime "3600"
+php_value session.cookie_httponly 1
+php_value session.cookie_secure 1
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+
+Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-XSS-Protection "1; mode=block"
+Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
+Header always set Content-Security-Policy: upgrade-insecure-requests
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+
+# Perhaps better to whitelist expires rules? Perhaps.
+  ExpiresDefault                          "access plus 0 seconds"
+
+# Data
+  ExpiresByType text/xml                  "access plus 0 seconds"
+  ExpiresByType application/xml           "access plus 0 seconds"
+  ExpiresByType application/json          "access plus 0 seconds"
+
+# Favicon (cannot be renamed)
+  ExpiresByType image/x-icon              "access plus 0 seconds"
+
+# Media: images, video, audio
+  ExpiresByType image/gif                 "access plus 0 seconds"
+  ExpiresByType image/png                 "access plus 0 seconds"
+  ExpiresByType image/jpeg                "access plus 0 seconds"
+  ExpiresByType video/ogg                 "access plus 0 seconds"
+  ExpiresByType audio/ogg                 "access plus 0 seconds"
+  ExpiresByType video/mp4                 "access plus 0 seconds"
+  ExpiresByType video/webm                "access plus 0 seconds"
+
+# Webfonts
+  ExpiresByType application/x-font-ttf    "access plus 0 seconds"
+  ExpiresByType font/opentype             "access plus 0 seconds"
+  ExpiresByType application/x-font-woff   "access plus 0 seconds"
+  ExpiresByType image/svg+xml             "access plus 0 seconds"
+  ExpiresByType application/vnd.ms-fontobject "access plus 0 seconds"
+
+# CSS and JavaScript
+  ExpiresByType text/css                  "access plus 0 seconds"
+  ExpiresByType application/javascript    "access plus 0 seconds"
+
+</IfModule>
+
+Options -Indexes

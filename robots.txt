@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /Beta/*
+Disallow: /core/*
+Disallow: /assets/*
+Disallow: /megagen/*
+Sitemap: https://iLoot.it/sitemap.xml
